@@ -1,0 +1,182 @@
+.container{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+}
+.child-container{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: dashed 5px rgb(161, 116, 116);
+    background-color: rgb(214, 198, 198);
+    color: #000;
+    align-items: end;
+}
+
+.row-container{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+}
+.child-row{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: dashed 5px rgb(161, 116, 116);
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(214, 198, 198);
+    color: #000;
+}
+.reverse-container{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.child-reverse{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: dashed 5px rgb(161, 116, 116);
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(214, 198, 198);
+    color: #000;
+}
+
+.reverse-container{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.child-reverse{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: dashed 5px rgb(161, 116, 116);
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(214, 198, 198);
+    color: #000;
+}
+.column-container{
+    width: 200px;
+    height: 550px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+.child-column{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: dashed 5px rgb(161, 116, 116);
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(214, 198, 198);
+    color: #000;
+}
+.colm-containerrev{
+    width: 200px;
+    height: 550px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.column-chlidrev{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: dashed 5px rgb(161, 116, 116);
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(214, 198, 198);
+    color: #000;
+}
+
+.space-container{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.child-space{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: dashed 5px rgb(161, 116, 116);
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(214, 198, 198);
+    color: #000;
+}
+
+.between-container{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child-between{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: dashed 5px rgb(161, 116, 116);
+    background-color: rgb(214, 198, 198);
+    color: #000;
+    align-items: center;
+}
+
+.evenly-container{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child-evenly{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: dashed 5px rgb(161, 116, 116);
+    background-color: rgb(214, 198, 198);
+    color: #000;
+}
+
+.center-container{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content:center;
+}
+.child-center{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: dashed 5px rgb(161, 116, 116);
+    background-color: rgb(214, 198, 198);
+    color: #000;
+    align-items: start;
+}
